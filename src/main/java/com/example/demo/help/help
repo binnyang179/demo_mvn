@@ -1,0 +1,2 @@
+产生数字证书sang.p12,
+keytool -genkey -alias tomcathttps -keyalg RSA -keysize 4096 -keystore sang.p12 -validity 365
